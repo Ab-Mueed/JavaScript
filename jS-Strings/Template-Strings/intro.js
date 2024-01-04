@@ -1,7 +1,7 @@
-// Template Strings
+// Template Strings / String Templates / Template Literals
 // Introduced in 2016 (ES6)
 // Templates are Strings Enclosed in 'Backticks' i.e, `String`
-// Template allows Double or Single quotes inside a String
+// Template allows Double or Single quotes inside a String 
 let fName = `Abdul`;
 let quoteOfTheDay = `"One Day or Day one. It's your Decision"`;
 
