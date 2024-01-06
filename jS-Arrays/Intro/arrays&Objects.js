@@ -1,5 +1,5 @@
 // Arrays & Objects
-// Arrays are a special type of objects.
+// Arrays are a special type of objects with numbered indexes.
 // Array Elements can be Objects.
 
 // You can have:

@@ -27,6 +27,24 @@ console.log(cars); // [ 'Creta', 'XUV700', 'Vitara' ]
 
 // An Array can also be created by using 'new' Keyword.
 const mobileBrands = new Array('Samsung', 'Apple', 'Xiamo');
+console.log(mobileBrands); // [ 'Samsung', 'Apple', 'Xiamo' ]
+
+// The new keyword can produce some unexpected results.
+// Create an Array with one Element using 'new' keyword?
+/*
+What will happen is that when you try to create an Array of one element using 'new' keyword
+the syntax will assume that the parameter passed is not an element but the length of the
+Array user wants.
+*/
+const points = new Array(40);
+console.log(points); // [ <40 empty items> ]
+// The above basically means to create an array with 40 undefined elements.
+
+// Hence use the traditional method to create an Array of only one element.
+const person = ['Octane'];
+console.log(person); // [ 'Octane' ]
+
+
 
 // typeof(Array)
 console.log(typeof(cars)); // object
